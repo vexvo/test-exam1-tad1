@@ -34,3 +34,6 @@ class solucion_parcial:
                           }
     def feature_2(self):
         return self.dictionary["Line"][0]["ExpenseDetail"]["Customer"]["Ref"]["name"]
+
+    def feature_3(self):
+        return self.dictionary["Line"][0]["ExpenseDetail"]["Customer"]["Ref"]["Address"]["city"]

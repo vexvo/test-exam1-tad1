@@ -7,3 +7,6 @@ solution.feature_1()
 
 # feature_2
 print(solution.feature_2())
+
+# feature_3
+print(solution.feature_3())
