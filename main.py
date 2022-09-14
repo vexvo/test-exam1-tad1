@@ -1,0 +1,1 @@
+from solucion_parcial import solucion_parcial
