@@ -32,3 +32,5 @@ class solucion_parcial:
                                     ],
                             "TotalAmt": 1990.19
                           }
+    def feature_2(self):
+        return self.dictionary["Line"][0]["ExpenseDetail"]["Customer"]["Ref"]["name"]
