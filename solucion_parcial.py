@@ -1,3 +1,6 @@
+import code
+
+
 class solucion_parcial:
     def __init__(self):
         self.dictionary = {}
@@ -37,3 +40,12 @@ class solucion_parcial:
 
     def feature_3(self):
         return self.dictionary["Line"][0]["ExpenseDetail"]["Customer"]["Ref"]["Address"]["city"]
+
+    def feature_4a(self):
+        return self.dictionary["Line"][0]["ExpenseDetail"]["Customer"]["Ref"]["Address"]["code_zip"]
+
+    def feature_4b(self):
+        zip_codes = self.dictionary["Line"][0]["ExpenseDetail"]["Customer"]["Ref"]["Address"]["code_zip"]
+        codes = zip_codes.split()
+        codes.sort()
+        return codes
