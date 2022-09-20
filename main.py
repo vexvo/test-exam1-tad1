@@ -10,3 +10,7 @@ print(solution.feature_2())
 
 # feature_3
 print(solution.feature_3())
+
+# feature_4
+print(solution.feature_4a())
+print(solution.feature_4b())
